@@ -52,7 +52,7 @@ Sheet.prototype.generate = function(){
 
 	for (i = 0; i < dataLength; i++) {
 		r = data[i],
-		currRow = i + 2;
+		currRow = i + 1;
 		row = '<x:row r="' + currRow + '" spans="1:' + colsLength + '">';
 		for (j = 0; j < colsLength; j++) {
 			styleIndex = null;
